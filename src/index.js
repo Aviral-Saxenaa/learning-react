@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ReactDOM  from 'react-dom';
+import './index.css';
 
 // ReactDOM.render(<h1>Noice!!</h1>,document.getElementById("root"));
 
@@ -55,9 +56,26 @@ import ReactDOM  from 'react-dom';
 //   document.getElementById("root")
 // )
 
-var name="aviral";
+//! JSX Attributes in ReactJS
+
+var name="Aviral";
+const img1="https://picsum.photos/200/300";
+const img2="https://picsum.photos/250/300";
+const img3="https://picsum.photos/300/300";
+const link="https://www.google.com";
 
 ReactDOM.render(
-  <h1 contentEditable="true">My name is {name}</h1>,
+  <>
+  <div className='container'>
+  <h1 className='heading'>My name is {name}</h1>
+  <div className='imgs'>
+  <img src={img1} alt='im1' />
+  <img src={img2} alt='im2'/>
+  <a href={link} target='_blank' rel="noopener noreferrer">
+  <img src={img3} alt='im3'/>
+  </a>
+  </div>
+  </div>
+  </>,
   document.getElementById("root")
 )
