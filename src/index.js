@@ -58,24 +58,31 @@ import './index.css';
 
 //! JSX Attributes in ReactJS
 
-var name="Aviral";
-const img1="https://picsum.photos/200/300";
-const img2="https://picsum.photos/250/300";
-const img3="https://picsum.photos/300/300";
-const link="https://www.google.com";
+// var name="Aviral";
+// const img1="https://picsum.photos/200/300";
+// const img2="https://picsum.photos/250/300";
+// const img3="https://picsum.photos/300/300";
+// const link="https://www.google.com";
 
-ReactDOM.render(
-  <>
-  <div className='container'>
-  <h1 className='heading'>My name is {name}</h1>
-  <div className='imgs'>
-  <img src={img1} alt='im1' />
-  <img src={img2} alt='im2'/>
-  <a href={link} target='_blank' rel="noopener noreferrer">
-  <img src={img3} alt='im3'/>
-  </a>
-  </div>
-  </div>
-  </>,
-  document.getElementById("root")
-)
+// ReactDOM.render(
+//   <>
+//   <div className='container'>
+//   <h1 className='heading'>My name is {name}</h1>
+//   <div className='imgs'>
+//   <img src={img1} alt='im1' />
+//   <img src={img2} alt='im2'/>
+//   <a href={link} target='_blank' rel="noopener noreferrer">
+//   <img src={img3} alt='im3'/>
+//   </a>
+//   </div>
+//   </div>
+//   </>,
+//   document.getElementById("root")
+// )
+
+//! for creating inline css
+//todo: we have to create an object and inside that we have to add its attributes in key value pairs
+//todo: after that we have to add object in the specific element where u want to change .
+
+
+
